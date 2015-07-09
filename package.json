@@ -1,0 +1,24 @@
+{
+  "name": "uniki",
+  "version": "1.0.0",
+  "description": "generate a unique key given any length of string (specific length hash)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsonic/uniki.git"
+  },
+  "keywords": [
+    "unique",
+    "key",
+    "hash"
+  ],
+  "author": "@nelsonic",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/nelsonic/uniki/issues"
+  },
+  "homepage": "https://github.com/nelsonic/uniki#readme"
+}
