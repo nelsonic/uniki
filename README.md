@@ -1,5 +1,11 @@
 # uniki
 
+[![Build Status](https://travis-ci.org/nelsonic/uniki.svg)](https://travis-ci.org/nelsonic/uniki)
+[![Code Climate](https://codeclimate.com/github/nelsonic/uniki/badges/gpa.svg)](https://codeclimate.com/github/nelsonic/uniki)
+[![Test Coverage](https://codeclimate.com/github/nelsonic/uniki/badges/coverage.svg)](https://codeclimate.com/github/nelsonic/uniki/coverage)
+[![Dependency Status](https://david-dm.org/nelsonic/uniki.svg)](https://david-dm.org/nelsonic/uniki)
+[![devDependency Status](https://david-dm.org/nelsonic/uniki/dev-status.svg)](https://david-dm.org/nelsonic/uniki#info=devDependencies)
+
 ![matrix-reloaded-keymaster](http://i.imgur.com/lRpBPXI.jpg)
 
 There are ***many use cases*** for unique keys.
@@ -7,7 +13,7 @@ There are ***many use cases*** for unique keys.
 Our ["***itch***"](https://gettingreal.37signals.com/ch02_Whats_Your_Problem.php)
 is minimizing the bytes occupied in our database by frequent strings.
 
-
+Like a *Hash* but shorter.
 
 
 

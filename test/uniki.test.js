@@ -3,8 +3,8 @@ var test  = require('tape');
 
 test("Create uniki for url: 1234", function(t) {
   var str = uniki(1234);
-  t.equal(str.length, 7, "Worked as expected "+str);
-  t.equal(str, '1ARVn2A', "uniki is consistent. 1234 >> 1ARVn")
+  t.equal(str.length, 8, "Worked as expected "+str);
+  t.equal(str, '1ARVn2Au', "uniki is consistent. 1234 >> 1ARVn")
   t.end();
 });
 
