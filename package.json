@@ -2,9 +2,16 @@
   "name": "uniki",
   "version": "1.0.0",
   "description": "generate a unique key given any length of string (specific length hash)",
-  "main": "index.js",
+  "main": "lib/uniki.js",
+  "directories": {
+    "test": "test"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "quick": "./node_modules/tape/bin/tape ./test/uniki.test.js",
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/uniki.test.js",
+    "coverage": "./node_modules/.bin/istanbul cover ./node_modules/tape/bin/tape ./test/*.js && ./node_modules/.bin/istanbul check-coverage --statements 100 --functions 100 --lines 100 --branches 100",
+    "jshint": "./node_modules/jshint/bin/jshint -c .jshintrc --exclude-path .gitignore .",
+    "codeclimate": "CODECLIMATE_REPO_TOKEN=7d6a9a77660c9a52f34d752740c30a5e1617e672ff6fdb99c92a63b2f67787d0 ./node_modules/codeclimate-test-reporter/bin/codeclimate.js < ./coverage/lcov.info"
   },
   "repository": {
     "type": "git",
@@ -20,5 +27,24 @@
   "bugs": {
     "url": "https://github.com/nelsonic/uniki/issues"
   },
-  "homepage": "https://github.com/nelsonic/uniki#readme"
+  "homepage": "https://github.com/nelsonic/uniki#readme",
+  "dependencies": {
+    "aguid": "^1.0.3",
+    "hiredis": "^0.4.0",
+    "redis": "^0.12.1"
+  },
+  "devDependencies": {
+    "chalk": "^1.0.0",
+    "codeclimate-test-reporter": "0.0.4",
+    "istanbul": "^0.3.13",
+    "jshint": "^2.6.3",
+    "pre-commit": "^1.0.6",
+    "tap-spec": "^3.0.0",
+    "tape": "^4.0.0"
+  },
+  "pre-commit": [
+    "jshint",
+    "coverage",
+    "codeclimate"
+  ]
 }

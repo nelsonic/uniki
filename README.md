@@ -10,6 +10,7 @@ is minimizing the bytes occupied in our database by frequent strings.
 
 
 
+
 # tl;dr
 
 ## Hold On, This Sounds Familiar ...
