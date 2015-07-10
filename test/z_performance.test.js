@@ -1,4 +1,4 @@
-// var uniki = require('../lib/uniki');
+var uniki = require('../lib/uniki');
 // var test  = require('tape');
 //
 // test("Performance Test", function(t) {
@@ -21,3 +21,4 @@
 // var length  = 70;
 // var tinyurl = uniki(longurl, length);
 // console.log(tinyurl); // bCvQYQafswBmQzTWTak
+console.log(uniki('hello world'))

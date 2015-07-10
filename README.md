@@ -15,7 +15,23 @@ is minimizing the bytes occupied in our database by frequent strings.
 
 Like a *Hash* but shorter.
 
+## Usage
 
+### Install from NPM
+
+```sh
+npm install uniki ---save
+```
+
+### Use it in your code/script
+
+```js
+var uniki = require('uniki');
+console.log(uniki('hello world')); // >> MJ7MSJwS    (ALWAYS The Same!)
+```
+
+That's all there is to it.
+Enjoy!
 
 # tl;dr
 
