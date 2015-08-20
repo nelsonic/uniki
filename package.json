@@ -1,6 +1,6 @@
 {
   "name": "uniki",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "generate a unique key given any length of string (specific length hash)",
   "main": "lib/uniki.js",
   "directories": {

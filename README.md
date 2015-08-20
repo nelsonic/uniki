@@ -37,6 +37,21 @@ Enjoy!
 
 # tl;dr
 
+## How many IDs?
+
+Getting the [**base64**](http://en.wikipedia.org/wiki/Base64) "digest"
+of the `sha512` of a string means we have a **64 character** population (potential characters):  
+```sh
+A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z
+a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z
+0, 1, 2, 3, 4, 5, 6, 7, 8, 9, +, /
+```
+Which means we can have
+[64<sup>8</sup>](http://www.wolframalpha.com/input/?i=64+to+the+power+of+8)
+= 281,474,976,710,656 or ***281 Billion*** *possible* IDs.
+(way more than we will *ever* need!)
+
+
 ## Hold On, This Sounds Familiar ...
 
 *If* this ***looks familiar***, its because it is!!  
