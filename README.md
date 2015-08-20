@@ -5,6 +5,8 @@
 [![Test Coverage](https://codeclimate.com/github/nelsonic/uniki/badges/coverage.svg)](https://codeclimate.com/github/nelsonic/uniki/coverage)
 [![Dependency Status](https://david-dm.org/nelsonic/uniki.svg)](https://david-dm.org/nelsonic/uniki)
 [![devDependency Status](https://david-dm.org/nelsonic/uniki/dev-status.svg)](https://david-dm.org/nelsonic/uniki#info=devDependencies)
+[![Node.js Version][node-version-image]][node-version-url]
+[![NPM Version][npm-image]][npm-url]
 
 ![matrix-reloaded-keymaster](http://i.imgur.com/lRpBPXI.jpg)
 
@@ -44,3 +46,8 @@ going to be typing these keys, they are used exclusively by
 our database as keys.  
 Also similar is https://www.npmjs.com/package/aguid
 but ***uniki*** we ***don't want*** our **keys** to be ***36 characters*** **long**!
+
+[node-version-image]: https://img.shields.io/node/v/uniki.svg?style=flat
+[node-version-url]: http://nodejs.org/download/
+[npm-image]: https://img.shields.io/npm/v/uniki.svg?style=flat
+[npm-url]: https://npmjs.org/package/uniki

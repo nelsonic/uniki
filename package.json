@@ -38,5 +38,8 @@
     "jshint",
     "coverage",
     "codeclimate"
-  ]
+  ],
+  "engines": {
+    "node": ">=0.10"
+  }
 }
